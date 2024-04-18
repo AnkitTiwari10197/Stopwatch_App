@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <!-- Setting our favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="./Images/10440316.png">
+
+    <!-- Linking our external CSS file -->
+    <link href="./styles.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+
+    <!-- Heading of our application -->
+    <h1 id="header">
+        Stopwatch
+    </h1>
+    
+    <!-- Creating the main container of our app -->
+    <div id="container">
+
+        <!-- Dividing this container into two half -->
+
+        <!-- Display Half-->
+        <div id="display">00:00:00:00</div>
+
+        <!-- Controls Half - where we will mention all our controls like Start, Stop and Reset  -->
+        <div id="controls">
+            <button id="startBtn" onclick="start()">Start</button> <!-- Added inline eventlisteners as well for all buttons -->
+            <button id="stopBtn" onclick="stop()" >Stop</button>
+            <button id="resetBtn" onclick="reset()">Reset</button>
+        </div>
+    </div>
+
+    <div id="author">
+        <span>Contributed by <b>Ankit Tiwari</b></span>
+        <p>Image by <a href="https://www.freepik.com/free-psd/clock-icon-illustration_144067294.htm#query=stop%20watch&position=4&from_view=keyword&track=ais&uuid=a89f80ec-291c-40c9-9c0f-42fd8e9e2e82">Freepik</a></p>
+    </div>
+    
+
+
+    <!-- Linking our javascript file as well in script tag-->
+    <script src="./script.js" type="text/javascript"></script>
+
+
+</body>
+</html>
